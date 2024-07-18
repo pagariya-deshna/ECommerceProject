@@ -1,6 +1,7 @@
 package com.ecommerce.project.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -9,10 +10,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.service.annotation.GetExchange;
+
 
 import com.ecommerce.project.request.BrandRequest;
 import com.ecommerce.project.request.ProductRequest;
@@ -52,11 +51,6 @@ public class ProductController {
 		return new ResponseEntity<>(product, HttpStatus.OK);
 	}
 	
-//	@GetMapping(value="/getProductByBrand")
-//	public ResponseEntity<Object> getProduct(@PathVariable String brandName){
-//		RegistrationResponse product = productService.getProductsByBrand(brandName);
-//		return new ResponseEntity<>(product, HttpStatus.OK);
-//	}
 	
 	@PostMapping(value="/addBrands")
 	public ResponseEntity<Object> addBrands(@RequestBody BrandRequest brandRequest){
