@@ -15,23 +15,23 @@ public class EmailSender {
 
     private static final Logger log = LoggerFactory.getLogger(EmailSender.class);
 
-    public static void main(String[] args) {
-        // Replace these constants with your email and password
-        final String EMAIL_ADDRESS = "deshnapagariya1010@outlook.com";
-        final String PASSWORD = "1234@890";
-
-        // Replace with the recipient email, subject, and message text
-        String recipientEmail = "deshnapagariya.ngd@gmail.com";
-        String subject = "My first smtp configuration";
-        String messageText = "<h1>This is a test email</h1>";
-
-        boolean result = sendEmail(EMAIL_ADDRESS, PASSWORD, recipientEmail, subject, messageText);
-        if (result) {
-            log.info("Email sent successfully!!");
-        } else {
-            log.error("Failed to send email.");
-        }
-    }
+//    public static void main(String[] args) {
+//        // Replace these constants with your email and password
+//        final String EMAIL_ADDRESS = "deshnapagariya1010@outlook.com";
+//        final String PASSWORD = "1234@890";
+//
+//        // Replace with the recipient email, subject, and message text
+//        String recipientEmail = "deshnapagariya.ngd@gmail.com";
+//        String subject = "My first smtp configuration";
+//        String messageText = "<h1>This is a test email</h1>";
+//
+//        boolean result = sendEmail(EMAIL_ADDRESS, PASSWORD, recipientEmail, subject, messageText);
+//        if (result) {
+//            log.info("Email sent successfully!!");
+//        } else {
+//            log.error("Failed to send email.");
+//        }
+//    }
 
     public static boolean sendEmail(String emailAddress, String password, String recipientEmail, String subject, String messageText) {
         try {
