@@ -216,13 +216,13 @@ public class RegistrationServiceImpl implements RegistrationService {
 
 //		 String subject="OTP for verification";
 //		 String messageText=otp;
-//		emailSender.sendHTMLMessage("nileshpagariya.ngd@gmail.com",subject,messageText);
+//		emailSender.sendHTMLMessage("pagariya.ngd@gmail.com",subject,messageText);
 //		
 //		
 //		log.info("Sending OTP " + otp + " to user " + emailId);
 
 		final String EMAIL_ADDRESS = "deshnapagariya1010@outlook.com";
-		final String PASSWORD = "1234@890";
+		final String PASSWORD = "your_password";
 
 		// Replace with the recipient email, subject, and message text
 		String recipientEmail = emailId;
