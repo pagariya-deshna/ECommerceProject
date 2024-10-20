@@ -41,8 +41,8 @@ public class OTPService {
 //	        // Replace this with actual email/SMS sending code
 //		 String subject="body";
 //		 String messageText="hello";
-////		 EmailSender.sendHTMLMessage("nileshpagariya.ngd@gmail.com", subject, messageText);
-//		emailSender.sendHTMLMessage("nileshpagariya.ngd@gmail.com",subject,messageText);
+////		 EmailSender.sendHTMLMessage("pagariya.ngd@gmail.com", subject, messageText);
+//		emailSender.sendHTMLMessage("pagariya.ngd@gmail.com",subject,messageText);
 //		System.out.println("Run");
 //	}
 
