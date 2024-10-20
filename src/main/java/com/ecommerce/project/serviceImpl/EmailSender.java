@@ -18,7 +18,7 @@ public class EmailSender {
 //    public static void main(String[] args) {
 //        // Replace these constants with your email and password
 //        final String EMAIL_ADDRESS = "deshnapagariya1010@outlook.com";
-//        final String PASSWORD = "1234@890";
+//        final String PASSWORD = "your_password";
 //
 //        // Replace with the recipient email, subject, and message text
 //        String recipientEmail = "deshnapagariya.ngd@gmail.com";
